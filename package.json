@@ -1,0 +1,17 @@
+{
+  "name": "all-api",
+  "version": "2.3.0",
+  "type": "module",
+  "main": "server.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "wreq-js": "^3.2.0"
+  }
+}
